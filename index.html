@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="urna">
+        <h1>Urna Eletrônica</h1>
+        <div id="display">
+            <input type="text" id="numeroCandidato" maxlength="5" placeholder="Digite o número">
+        </div>
+        <div id="fotoCandidato"></div>
+        <button onclick="confirmarVoto()">Confirmar</button>
+        <button onclick="corrigirVoto()">Corrigir</button>
+        <div id="mensagem"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
